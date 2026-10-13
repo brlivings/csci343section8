@@ -52,13 +52,13 @@ const styles = StyleSheet.create({
     opacity: 0.8,
   },
   buttonText: {
-    fontFamily: "latoBold",
-    fontSize: 20,
+    fontFamily: "mountain",
+    fontSize: 24,
     color: Colors.white,
     textAlign: "center",
     letterSpacing: 1,
   },
   buttonTextTablet: {
-    fontSize: 26,
+    fontSize: 32,
   },
 });

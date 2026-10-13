@@ -121,9 +121,10 @@ function HomeScreen() {
 
   return (
     <ImageBackground
-      source={require("../assets/images/campground-bg.png")}
+      source={require("../assets/images/camping.jpg")}
       resizeMode="cover"
       style={styles.background}
+      imageStyle={styles.backgroundImage}
     >
       {/* color overlay on top of the picture so everything is readable */}
       <View style={styles.overlay}>
@@ -258,6 +259,11 @@ const styles = StyleSheet.create({
   background: {
     flex: 1,
   },
+  // makes the picture stretch to fill the screen on phones and tablets
+  backgroundImage: {
+    width: "100%",
+    height: "100%",
+  },
   overlay: {
     flex: 1,
     backgroundColor: Colors.overlay,
@@ -296,14 +302,14 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   label: {
-    fontFamily: "bitterBold",
-    fontSize: 17,
+    fontFamily: "mountain",
+    fontSize: 20,
     color: Colors.pineGreen,
     marginTop: 8,
     marginBottom: 6,
   },
   labelTablet: {
-    fontSize: 24,
+    fontSize: 28,
   },
   selectorBox: {
     backgroundColor: Colors.white,
@@ -334,14 +340,14 @@ const styles = StyleSheet.create({
     borderColor: Colors.canvas,
   },
   resultsTitle: {
-    fontFamily: "bitterBold",
-    fontSize: 22,
+    fontFamily: "mountain",
+    fontSize: 26,
     color: Colors.canvas,
     textAlign: "center",
     marginBottom: 10,
   },
   resultsTitleTablet: {
-    fontSize: 30,
+    fontSize: 36,
   },
   resultsText: {
     fontFamily: "latoRegular",

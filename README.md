@@ -18,8 +18,8 @@ portrait and landscape).
 
 ## Folders
 
-- `assets/fonts` - Bitter Bold and Lato fonts
-- `assets/images` - splash screen image, home screen background, icons
+- `assets/fonts` - Mountain (from class) and Lato fonts
+- `assets/images` - camping-splash (splash screen), camping.jpg (home background), icons
 - `components` - Title, ReserveButton, WheelSelector
 - `screens` - HomeScreen
 - `constants` - colors

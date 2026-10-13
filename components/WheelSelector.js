@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
     borderColor: Colors.pineGreen,
   },
   modalTitle: {
-    fontFamily: "bitterBold",
-    fontSize: 22,
+    fontFamily: "mountain",
+    fontSize: 26,
     color: Colors.pineGreen,
     marginBottom: 8,
   },

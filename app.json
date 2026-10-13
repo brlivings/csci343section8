@@ -25,10 +25,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash.png",
-          "imageWidth": 260,
-          "resizeMode": "contain",
-          "backgroundColor": "#1C2E24"
+          "image": "./assets/images/camping-splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#0B1A2B"
         }
       ],
       "@react-native-community/datetimepicker"

@@ -14,7 +14,7 @@ SplashScreen.preventAutoHideAsync();
 export default function App() {
   // load the custom fonts from the assets folder
   const [fontsLoaded, fontError] = useFonts({
-    bitterBold: require("./assets/fonts/Bitter-Bold.ttf"),
+    mountain: require("./assets/fonts/Mountain.ttf"),
     latoRegular: require("./assets/fonts/Lato-Regular.ttf"),
     latoBold: require("./assets/fonts/Lato-Bold.ttf"),
   });

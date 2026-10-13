@@ -36,8 +36,8 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   titleText: {
-    fontFamily: "bitterBold",
-    fontSize: 30,
+    fontFamily: "mountain",
+    fontSize: 36,
     color: Colors.canvas,
     textAlign: "center",
     textShadowColor: "rgba(0, 0, 0, 0.6)",
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     textShadowRadius: 4,
   },
   titleTextTablet: {
-    fontSize: 46,
+    fontSize: 56,
   },
   subtitleText: {
     fontFamily: "latoBold",
